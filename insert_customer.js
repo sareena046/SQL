@@ -17,7 +17,7 @@ con.connect(function(err) {
         ['nana', 'Satun'],
         ['supphawit', 'Phatthalung'],
         ['sareena', 'Trang'],
-        ['Luka', 'Songkala']
+        ['Luka', 'Songkhla']
     ];
 
     con.query(sql, [values], function(err, result) {
