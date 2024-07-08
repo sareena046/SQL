@@ -11,7 +11,7 @@ con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
 
-    var sql = "SELECT * FROM Customers WHERE address = 'Songkhla'";
+    var sql = "SELECT * FROM Customers WHERE address = 'Satun'";
 
     con.query(sql, function (err, result, fields) {
         if (err) {
